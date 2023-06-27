@@ -16,9 +16,13 @@
         <h3>{{ $cookie->email }}</h3>
         <div class="row">
             @foreach($cookie->profiles as $profile)
+            @php
+                $background = isset($profile['background_url']) ? $profile['background_url'] : null;
+                $name = isset($profile['name']) ? $profile['name'] : null;
+            @endphp
             <div class="col-md-2">
-                <img src="{{ $profile['background_url'] }}" alt="" class="img-fluid">
-                <p>{{ $profile['name'] }}</p>
+                <img src="{{ $background  }}" alt="" class="img-fluid">
+                <p>{{ $name }}</p>
             </div>
             @endforeach
         </div>
