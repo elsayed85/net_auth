@@ -78,4 +78,27 @@ class Board extends Component
         $loader = new Loader();
         $loader->load(clear: true);
     }
+
+    public function authTv()
+    {
+        $code = $this->code;
+        $cookie = $this->cookie;
+
+        if (strlen($code) !== 8) {
+            session()->flash('tv_auth_error', 'Code must be 8 characters');
+            return false;
+        }
+
+        $netflix = new Netflix();
+
+        if ($netflix->login($cookie)) {
+            $response =  $netflix->authTv($code);
+
+            if ($response) {
+                session()->flash('tv_auth_success', 'TV Auth Success');
+            } else {
+                session()->flash('tv_auth_error', 'TV Auth Error');
+            }
+        }
+    }
 }
