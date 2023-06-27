@@ -15,7 +15,7 @@
     <div class="alert alert-success">
         <h3>{{ $cookie->email }}</h3>
         <div class="row">
-            @foreach($cookie->profiles as $profile)
+            @foreach(json_decode($cookie->profiles , true) as $profile)
             @php
                 $background = isset($profile['background_url']) ? $profile['background_url'] : null;
                 $name = isset($profile['name']) ? $profile['name'] : null;

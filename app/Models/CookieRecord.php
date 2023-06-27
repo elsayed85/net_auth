@@ -16,14 +16,6 @@ class CookieRecord extends Model
      */
     protected $guarded = [];
 
-    public function getProfilesAttribute($profiles)
-    {
-        if (is_string($profiles)) {
-            $profiles = json_decode($profiles);
-        }
-
-        return $profiles;
-    }
 
     public function getEmailAttribute()
     {
