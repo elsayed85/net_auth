@@ -20,9 +20,7 @@ class CookieRecord extends Model
     {
         $profiles = $this->attributes['profiles'];
 
-        if (is_string($profiles)) {
-            $profiles = json_decode($profiles);
-        }
+
 
         return $profiles;
     }
