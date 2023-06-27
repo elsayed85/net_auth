@@ -102,6 +102,6 @@ class Board extends Component
     public function load()
     {
         $loader = new Loader();
-        $loader->load(clear: true);
+        $loader->load(clear: false);
     }
 }
