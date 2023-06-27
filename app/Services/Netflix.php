@@ -30,8 +30,7 @@ class Netflix
             $profile = $node->filter('a.profile-link');
             $profileName = $profile->filter('span.profile-name')->text("");
             $profileHref = $profile->attr('href');
-            $switchProfileUrl =
-                $background_url = $node->filter('div.profile-icon')->attr('style');
+            $background_url = $node->filter('div.profile-icon')->attr('style');
             $background_url = str_replace('background-image:url(', '', $background_url);
             $background_url = str_replace(')', '', $background_url);
             return [
@@ -47,6 +46,29 @@ class Netflix
 
         $this->profiles = $profiles_items;
         $this->crawler = $crawler;
+        return true;
+    }
+
+    public function authTv($code)
+    {
+        if (strlen($code) !== 8) {
+            return false;
+        }
+
+        $crawler  = $this->crawler->request('GET', "https://www.netflix.com/tv8");
+        $form = $crawler->filter('form[data-uia="witcher-code-form"]')->form(null, "POST");
+        $form['code'] = $code;
+        $form['tvLoginRendezvousCode'] = $code;
+
+        $crawler = $this->crawler->submit($form);
+
+        $hasError = $crawler->filter('form[data-uia="witcher-code-form"] div.error-box')->count() > 0;
+
+        if ($hasError) {
+            // $msg = $crawler->filter('form[data-uia="witcher-code-form"] div.nf-message-contents')->text();
+            return false;
+        }
+
         return true;
     }
 
@@ -84,6 +106,11 @@ class Netflix
             $cookie = explode("\t", $cookie);
 
             if (count($cookie) === 7) {
+                $value = $cookie[6];
+                $value = str_replace("\r", "", $value);
+                $value = str_replace("\n", "", $value);
+                $value = str_replace("\t", "", $value);
+                $cookie[6] = $value;
                 $cookie = new Cookie(
                     $cookie[5],     // Name
                     $cookie[6],     // Value

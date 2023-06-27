@@ -6,13 +6,15 @@ use App\Models\CookieRecord;
 
 class Loader
 {
-    public function load()
+    public function load($clear = false)
     {
         $cookies = $this->saveCookies(
             $this->loadCookies()
         );
 
-        $this->clearCookiesLocally();
+        if ($clear)
+            $this->clearCookiesLocally();
+
         return $cookies;
     }
 
@@ -34,10 +36,15 @@ class Loader
         $files = glob($folder . '/*.txt');
 
         foreach ($files as $file) {
+            $name = basename($file);
+            preg_match_all("/[\._a-zA-Z0-9-]+@[\._a-zA-Z0-9-]+/i", $name, $matches);
+            $email = $matches[0] ? $matches[0][0] : null;
+
             $cookie = [
-                'name' => basename($file),
+                'email' => $email,
                 'cookie' => file_get_contents($file),
             ];
+
             $cookies[] = $cookie;
         }
 
@@ -49,7 +56,7 @@ class Loader
         $records = [];
         foreach ($cookies as $cookie) {
             $record = new CookieRecord();
-            $record->file_name = $cookie['name'];
+            $record->email = $cookie['email'];
             $record->content = $cookie['cookie'];
             $record->save();
             $records[] = $record;

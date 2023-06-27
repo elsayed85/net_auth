@@ -13,8 +13,10 @@ return new class extends Migration
     {
         Schema::create('cookie_records', function (Blueprint $table) {
             $table->id();
-            $table->string('file_name');
+            $table->string('email')->nullable();
             $table->longText('content');
+            $table->boolean("is_active")->nullable();
+            $table->json("profiles")->nullable();
             $table->timestamps();
         });
     }
