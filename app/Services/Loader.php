@@ -55,10 +55,25 @@ class Loader
     {
         $records = [];
         foreach ($cookies as $cookie) {
-            $record = new CookieRecord();
-            $record->email = $cookie['email'];
-            $record->content = $cookie['cookie'];
-            $record->save();
+            $email = $cookie['email'];
+            if (is_null($email)) {
+                $record = CookieRecord::create([
+                    'email' => null,
+                    'content' => $cookie['cookie'],
+                ]);
+            } else {
+                $record = CookieRecord::where('email', $email)->first();
+                if (!$record) {
+                    $record = CookieRecord::create([
+                        'email' => $email,
+                        'content' => $cookie['cookie'],
+                    ]);
+                } else {
+                    $record->update([
+                        'content' => $cookie['cookie'],
+                    ]);
+                }
+            }
             $records[] = $record;
         }
         return $records;

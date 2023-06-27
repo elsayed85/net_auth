@@ -17,11 +17,6 @@ class Board extends Component
     public $code = "";
     public $cookie;
 
-    public function mount()
-    {
-        //
-    }
-
     public function render()
     {
         return view('livewire.board', [
@@ -52,18 +47,19 @@ class Board extends Component
                 'profiles' => $profiles,
                 "is_active" => true,
             ]);
-
-            // $first = $profiles[0];
-            // $netflix->switchProfile($first);
-            // auth will be in next step after user enter code
-            // $response =  $netflix->authTv(request('code'));
-
-
-            $this->cookie = $cookie;
         } else {
             $cookie->delete();
-            $this->cookie = null;
         }
+    }
+
+    public function show(CookieRecord $cookie)
+    {
+        if ($cookie->is_active) {
+            $this->cookie = $cookie;
+            return;
+        }
+        $this->cookie = null;
+        $this->code = "";
     }
 
     public function switchProfile($profile)
@@ -71,32 +67,10 @@ class Board extends Component
         $this->netflix->switchProfile($profile);
     }
 
-    public function authTv()
+    public function deleteCookie($cookie)
     {
-        $code = $this->code;
-        $cookie = $this->cookie;
-
-        if (strlen($code) !== 8) {
-            session()->flash('tv_auth_error', 'Code must be 8 characters');
-            return false;
-        }
-
-        $netflix = new Netflix();
-
-        if ($netflix->login($cookie)) {
-            $response =  $netflix->authTv($code);
-
-            if ($response) {
-                session()->flash('tv_auth_success', 'TV Auth Success');
-            } else {
-                session()->flash('tv_auth_error', 'TV Auth Error');
-            }
-        }
-    }
-
-    public function delete(CookieRecord $cookie)
-    {
-        $cookie->delete();
+        $cookie_to_delete = CookieRecord::find($cookie);
+        $cookie_to_delete->delete();
     }
 
     public function load()

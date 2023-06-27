@@ -16,6 +16,11 @@ class CookieRecord extends Model
      */
     protected $guarded = [];
 
+    public function getProfilesAttribute($value)
+    {
+        return json_decode($value);
+    }
+
 
     public function getEmailAttribute()
     {
