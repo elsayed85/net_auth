@@ -16,11 +16,11 @@ class CookieRecord extends Model
      */
     protected $guarded = [];
 
-    public function getProfilesAttribute()
+    public function getProfilesAttribute($profiles)
     {
-        $profiles = $this->attributes['profiles'];
-
-
+        if (is_string($profiles)) {
+            $profiles = json_decode($profiles);
+        }
 
         return $profiles;
     }
