@@ -22,6 +22,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get("auth", function () {
     $code = request("code");
+    if (strlen($code) != 8) {
+        return response()->json(["success" => false]);
+    }
     $netflix = new Netflix();
     $cookie = CookieRecord::all();
     foreach ($cookie as $item) {
