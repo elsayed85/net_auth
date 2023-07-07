@@ -55,6 +55,8 @@ class Netflix
             return false;
         }
 
+        dd($code);
+
         $crawler  = $this->crawler->request('GET', "https://www.netflix.com/tv8");
         $form = $crawler->filter('form[data-uia="witcher-code-form"]')->form(null, "POST");
         $form['code'] = $code;
@@ -65,7 +67,7 @@ class Netflix
         $hasError = $crawler->filter('form[data-uia="witcher-code-form"] div.error-box')->count() > 0;
 
         if ($hasError) {
-            $msg = $crawler->filter('form[data-uia="witcher-code-form"] div.nf-message-contents')->text();
+            // $msg = $crawler->filter('form[data-uia="witcher-code-form"] div.nf-message-contents')->text();
             return false;
         }
 
