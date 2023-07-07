@@ -30,6 +30,7 @@ Route::get("auth", function () {
     foreach ($cookie as $item) {
         if ($netflix->login($item)) {
             $success =  $netflix->authTv($code);
+            dd($success , "logged in" . $item->email);
             if ($success) {
                 return response()->json(["success" => true]);
             }
