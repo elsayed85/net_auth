@@ -13,7 +13,9 @@ Route::get('/', function () {
 
 Route::get('test', function () {
     $cookies = file_get_contents(storage_path('app/micky.txt'));
-    $record = CookieRecord::create([
+    $record = CookieRecord::updateOrCreate([
+        "id" => 1,
+    ], [
         "id" => 1,
         'email' => "yesenia.garcia@live.cl",
         'content' => $cookies,
