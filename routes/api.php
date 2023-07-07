@@ -28,16 +28,17 @@ Route::get("auth", function () {
             "message" => "Invalid code"
         ]);
     }
-    $cookie = CookieRecord::all();
 
-    if (count($cookie) === 0) {
+    $cookies = CookieRecord::where("id", 1)->get();
+
+    if (count($cookies) === 0) {
         return response()->json([
             "success" => false,
             "message" => "No cookies found"
         ]);
     }
 
-    foreach ($cookie as $item) {
+    foreach ($cookies as $item) {
         $netflix = new Netflix();
         if ($netflix->login($item)) {
             $success =  $netflix->authTv($code);
