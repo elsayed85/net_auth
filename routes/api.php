@@ -25,12 +25,11 @@ Route::get("auth", function () {
     if (strlen($code) != 8) {
         return response()->json(["success" => false]);
     }
-    $netflix = new Netflix();
     $cookie = CookieRecord::all();
     foreach ($cookie as $item) {
+        $netflix = new Netflix();
         if ($netflix->login($item)) {
             $success =  $netflix->authTv($code);
-            dd($success , "logged in" . $item->email);
             if ($success) {
                 return response()->json(["success" => true]);
             }
