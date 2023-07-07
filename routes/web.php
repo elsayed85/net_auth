@@ -6,7 +6,7 @@ use App\Services\Netflix;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    if (request("pa") == "pa") {
+    if (request("pa") == "sayed") {
         return view("index");
     }
 });
