@@ -20,6 +20,59 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get("accounts", function () {
+    $cookies = CookieRecord::all();
+
+    if (count($cookies) === 0) {
+        return response()->json([
+            "success" => false,
+            "count" => 0,
+            "message" => "No cookies found"
+        ]);
+    }
+
+    return response()->json([
+        "success" => true,
+        "count" => count($cookies),
+        "data" => $cookies
+    ]);
+});
+
+Route::get("auth/{cookie}", function ($cookie) {
+    $code = request("code");
+    if (strlen($code) != 8) {
+        return response()->json([
+            "success" => false,
+            "message" => "Invalid code"
+        ]);
+    }
+
+    $netflix = new Netflix();
+    $cookie = CookieRecord::find($cookie);
+
+    if (!$cookie) {
+        return response()->json([
+            "success" => false,
+            "message" => "Invalid Account"
+        ]);
+    }
+
+    if ($netflix->login($cookie)) {
+        $code = $netflix->authTv($code);
+        if ($code) {
+            return response()->json([
+                "success" => true,
+                "code" => $code
+            ]);
+        }
+    }
+    return response()->json([
+        "success" => false,
+        "message" => "Invalid Account"
+    ]);
+});
+
+
 Route::get("auth", function () {
     $code = request("code");
     if (strlen($code) != 8) {
