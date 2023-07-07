@@ -21,7 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get("accounts", function () {
-    $cookies = CookieRecord::where("id" , 1)->get();
+    $cookies = CookieRecord::all();
 
     if (count($cookies) === 0) {
         return response()->json([
