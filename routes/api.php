@@ -49,6 +49,6 @@ Route::get("auth", function () {
     }
     return response()->json([
         "success" => false,
-        "message" => "Invalid code"
+        "message" => "Invalid code after trying random 3 cookies"
     ]);
 });
