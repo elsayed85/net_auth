@@ -40,6 +40,8 @@ class Netflix
             ];
         });
 
+        dd($profiles_items);
+
         if (count($profiles_items) === 0) {
             return false;
         }
