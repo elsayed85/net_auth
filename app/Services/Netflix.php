@@ -40,8 +40,6 @@ class Netflix
             ];
         });
 
-        dd($profiles_items);
-
         if (count($profiles_items) === 0) {
             return false;
         }
@@ -57,7 +55,7 @@ class Netflix
             return false;
         }
 
-        $crawler  = $this->crawler->request('GET', "https://www.netflix.com/tv9");
+        $crawler  = $this->crawler->request('GET', "https://www.netflix.com/tv8");
         $form = $crawler->filter('form[data-uia="witcher-code-form"]')->form(null, "POST");
         $form['code'] = $code;
         $form['tvLoginRendezvousCode'] = $code;
