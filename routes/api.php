@@ -41,6 +41,7 @@ Route::get("auth", function () {
         $netflix = new Netflix();
         if ($netflix->login($item)) {
             $success =  $netflix->authTv($code);
+            dd($success);
             if ($success) {
                 return response()->json(["success" => true]);
             }

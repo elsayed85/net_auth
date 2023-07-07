@@ -65,7 +65,7 @@ class Netflix
         $hasError = $crawler->filter('form[data-uia="witcher-code-form"] div.error-box')->count() > 0;
 
         if ($hasError) {
-            // $msg = $crawler->filter('form[data-uia="witcher-code-form"] div.nf-message-contents')->text();
+            $msg = $crawler->filter('form[data-uia="witcher-code-form"] div.nf-message-contents')->text();
             return false;
         }
 
