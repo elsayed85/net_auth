@@ -68,7 +68,7 @@ Route::get("auth/{cookie}", function ($cookie) {
     }
     return response()->json([
         "success" => false,
-        "message" => "Invalid Account"
+        "message" => "Invalid Code"
     ]);
 });
 
