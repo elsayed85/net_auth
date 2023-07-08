@@ -21,9 +21,23 @@ class CookieRecord extends Model
         return json_decode($value);
     }
 
-
     public function getEmailAttribute()
     {
         return $this->attributes['email'] ?? "Not Found";
+    }
+
+    public function scopeActive($query)
+    {
+        return $query->where("is_active", true);
+    }
+
+    public function scopeNotActive($query)
+    {
+        return $query->where("is_active", false);
+    }
+
+    public function scopeFreshAccounts($query)
+    {
+        return $query->whereNull("is_active");
     }
 }

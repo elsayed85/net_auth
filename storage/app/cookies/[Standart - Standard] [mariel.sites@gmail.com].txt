@@ -1,0 +1,11 @@
+.netflix.com	TRUE	/	TRUE	1705269118	nfvdid	BQFmAAEBEIVyJXvNqIeKpTbD_5aji-xgu4nAtw2X0afVQDKaNK3EWkDPSgoVUgRgakBsy0SUxX8Fz5qIrvENlfexAHfKk9xNFhK0pkx6RY8yEamYCm0urpjhzAPN0Gof5hiFPXQdhzVAJMbUqHG-5nUysNWMKanl
+.netflix.com	TRUE	/	TRUE	1673894054	firstLolomoAfterOnRamp	true
+.netflix.com	TRUE	/	TRUE	1675720294	flwssn	f6f01208-9a8a-4a08-bc62-6fc39b9fe62b
+.netflix.com	TRUE	/	TRUE	1738781494	dsca	customer
+.netflix.com	FALSE	/	FALSE	1707245494	SecureNetflixId	v%3D2%26mac%3DAQEAEQABABQ1Z79SqHHBCdyBdLAaORHZzQ_6bS2yfrQ.%26dt%3D1675709494698
+.netflix.com	FALSE	/	FALSE	1707245494	NetflixId	ct%3DBQAOAAEBEH8ky1CBzYLE_NNcu9zPcC-CELCgIKFRbAZlBtwCdWNTVE3zp2dzTGKHnrXwTETui80A4YZOINPWQoO46TAQFqgzpxTel-hgVgO-U2hwMObt71wZ0IJRuImPmxOL1R0x55eHd-QcvYVu-uMHznhVyo7CvD8rM4BTV2_Vm5DfOJ6ESBibtd9DHTjVoxacDXpBJKc_nW3c9zhuE-GlH4iaMNzhuewrooe0-d_wGom_Z4Lv-JeTBUIOqxqI7yxmM-PrgLkBHrv-Qx6jOCm1kUyiKt5IyMzXYqiBiBhP6r5NXdmPclXsGaz6T6mASP2Nrzgp0IwZtS3k_RHHcX686MGNpI9fOzeQYz68nZdExBMmWoD0WgwFeYgY9gBcpj0rKBVEuxUpcArDrVyWDVUGE6q5wMl2z_Nt_wsuz1ynpb5mXo0Yyg_BmWEZgpy6rGrQkv6shq9GImEOSX_nfrT5dkcupxPWOSzElO9PuGnWMaiYmmPK2figWUqz8DcIWOUwtU3iVrNx30OohJ8RNL3HxfUDBkL1h__umPLI5EgHeKGu_oYxymQIXPKJFi3Qwvfa2NL9-WgGx9r9xIM6U1P7oEuEc8C2m2DbY9FNhQHkH9WxAzVrhfiEZtFCNZ6VX2py9dMgB2av0D2mLQbpy5H3Zh_H5Fr3LIyyJOxSYdia4qWkcj5TuSrR2HK82W5rqUyovLNgRHeW95GdVc5ikzdpxNn_Ju35MQ..%26bt%3Ddbl%26ch%3DAQEAEAABABR9vDgmlOD0iNppdoGmSZfCBrkQKLpo7Ks.%26v%3D2%26mac%3DAQEAEAABABQK_xbS3JRabLHnP8sc1dnvu85pJjjwULs.
+.netflix.com	TRUE	/	TRUE	1683485495	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	TRUE	1683485495	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	TRUE	1707245497	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Feb+06+2023+19%3A51%3A37+GMT%2B0100+(heure+normale+d%E2%80%99Europe+centrale)&version=202301.1.0&isIABGlobal=false&hosts=&consentId=b6635e86-5871-4f7a-b476-d82347f60c6b&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0&AwaitingReconsent=false
+.netflix.com	TRUE	/	TRUE	1675765025	profilesNewSession	0
+.netflix.com	TRUE	/	TRUE	1707299232	memclid	d601fb9f-8ba4-4566-850f-2fa5c11214f0

@@ -3,6 +3,7 @@
 use App\Models\CookieRecord;
 use App\Services\Loader;
 use App\Services\Netflix;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -12,14 +13,12 @@ Route::get('/', function () {
 });
 
 Route::get('test', function () {
-    $cookies = file_get_contents(storage_path('app/micky.txt'));
-    $record = CookieRecord::updateOrCreate([
-        "id" => 1,
-    ], [
-        "id" => 1,
-        'email' => "yesenia.garcia@live.cl",
-        'content' => $cookies,
-    ]);
+    $loader = new Loader();
+    $loader->load();
+});
 
-    return $record;
+Route::get('test2', function () {
+    // insert queries for table cookies_records
+    $sql = storage_path("app/data.sql");
+    DB::unprepared(file_get_contents($sql));
 });
