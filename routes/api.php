@@ -20,6 +20,22 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get("accounts/info", function () {
+
+    // just show max number of pages
+    $cookiesCount = CookieRecord::active()->count();
+
+    if ($cookiesCount === 0) {
+        return response()->json([
+            "count" => 0,
+        ]);
+    }
+
+    return response()->json([
+        "count" => ceil($cookiesCount / 10),
+    ]);
+});
+
 Route::get("accounts", function () {
     $cookies = CookieRecord::active()
         ->select(["id", "email"])
