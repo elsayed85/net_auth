@@ -37,8 +37,12 @@ Route::get("accounts/info", function () {
 });
 
 Route::get("accounts", function () {
+    $email = request("email");
     $cookies = CookieRecord::active()
         ->select(["id", "email"])
+        ->when($email, function ($query, $email) {
+            return $query->where("email", "like", "%$email%");
+        })
         ->paginate(10);
 
     if (count($cookies) === 0) {
