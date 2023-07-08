@@ -21,7 +21,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get("accounts", function () {
-    $cookies = CookieRecord::limit(10)
+    $page = request("page", 1);
+
+    $cookies = CookieRecord::skip(($page - 1) * 10)
+        ->take(10)
         ->active()
         ->get(["id", "email"]);
 
