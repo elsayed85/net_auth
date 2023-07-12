@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('phone')->unique();
             $table->string('password');
+            $table->boolean("unlimited")->default(false);
             $table->rememberToken();
             $table->timestamps();
         });

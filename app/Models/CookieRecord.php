@@ -40,4 +40,9 @@ class CookieRecord extends Model
     {
         return $query->whereNull("is_active");
     }
+
+    public function users()
+    {
+        return $this->belongsToMany(User::class, 'user_cookie', 'cookie_id', 'user_id');
+    }
 }

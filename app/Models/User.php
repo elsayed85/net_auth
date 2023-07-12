@@ -41,4 +41,9 @@ class User extends Authenticatable
     protected $casts = [
         'password' => 'hashed',
     ];
+
+    public function cookies()
+    {
+        return $this->belongsToMany(CookieRecord::class, 'user_cookie' , 'user_id', 'cookie_id');
+    }
 }
