@@ -24,12 +24,13 @@ class Handler extends ExceptionHandler
     public function register(): void
     {
         $this->reportable(function (Throwable $e) {
-            // handel unauthenticated exception
-            if ($e instanceof \Illuminate\Auth\AuthenticationException) {
+            // chechk if request is api request
+            if (request()->is("api/*")) {
+                // return json response
                 return response()->json([
                     "success" => false,
-                    "message" => "Unauthenticated"
-                ], 401);
+                    "message" => $e->getMessage(),
+                ]);
             }
         });
     }
