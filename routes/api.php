@@ -200,7 +200,7 @@ Route::get("test/auth", function () {
 
 Route::post("auth-check", function () {
     return response()->json([
-        "auth" => auth()->check()
+        "auth" => auth()->user()
     ]);
 });
 
