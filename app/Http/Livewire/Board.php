@@ -49,6 +49,8 @@ class Board extends Component
             ]);
         } else {
             $cookie->delete();
+            $this->cookie = null;
+            $this->code = "";
         }
     }
 
