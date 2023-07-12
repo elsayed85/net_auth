@@ -15,6 +15,10 @@ class AuthController extends Controller
 
         $credentials = $request->only("phone", "password");
 
+        return response()->json([
+            "credentials" => $credentials,
+        ]);
+
         if (!auth()->attempt($credentials)) {
             return response()->json([
                 "success" => false,
