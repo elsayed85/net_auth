@@ -198,6 +198,11 @@ Route::get("test/auth", function () {
     ]);
 });
 
+Route::get("auth-chech", function () {
+    return response()->json([
+        "auth" => auth()->check()
+    ]);
+});
 
 // login
 Route::post('login', [App\Http\Controllers\AuthController::class, 'login']);
