@@ -199,8 +199,12 @@ Route::get("test/auth", function () {
 });
 
 Route::post("auth-check", function () {
+    $user = auth()->user();
     return response()->json([
-        "auth" => auth()->user()
+        "user" => [
+            "name" => $user->name,
+            "phone" => $user->phone,
+        ]
     ]);
 })->middleware("auth:sanctum");
 
