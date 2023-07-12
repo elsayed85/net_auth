@@ -18,7 +18,19 @@ Route::get('test', function () {
 });
 
 Route::get('test2', function () {
-    $sql = storage_path("app/data.sql");
-    DB::unprepared(file_get_contents($sql));
-    return "done";
+    $credentials = request()->only(["phone", "password"]);
+
+    if (!auth()->attempt($credentials)) {
+        return response()->json([
+            "success" => false,
+            "message" => "Invalid Credentials"
+        ]);
+    }
+
+    $token = auth()->user()->createToken("auth_token")->plainTextToken;
+
+    return response()->json([
+        "success" => true,
+        "token" => $token
+    ]);
 });
