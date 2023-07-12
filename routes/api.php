@@ -38,12 +38,24 @@ Route::get("accounts/info", function () {
 
 Route::get("accounts", function () {
     $email = request("email");
-    $cookies = CookieRecord::active()
-        ->select(["id", "email"])
-        ->when($email, function ($query, $email) {
-            return $query->where("email", "like", "%$email%");
-        })
-        ->paginate(10);
+    $user = auth()->user();
+
+    if ($user->unlimited) {
+        $cookies = CookieRecord::active()
+            ->select(["id", "email"])
+            ->when($email, function ($query, $email) {
+                return $query->where("email", "like", "%$email%");
+            })
+            ->paginate(10);
+    } else {
+        $cookies = $user->cookies()
+            ->active()
+            ->select(["id", "email"])
+            ->when($email, function ($query, $email) {
+                return $query->where("email", "like", "%$email%");
+            })
+            ->paginate(10);
+    }
 
     if (count($cookies) === 0) {
         return response()->json([
@@ -58,7 +70,7 @@ Route::get("accounts", function () {
         "count" => count($cookies),
         "data" => $cookies
     ]);
-});
+})->middleware("auth:sanctum");
 
 
 Route::get("auth/{cookie}", function ($cookie) {
@@ -129,6 +141,30 @@ Route::get("auth", function () {
     ]);
 })->middleware("auth:sanctum");
 
+
+Route::get("test/accounts", function () {
+    $email = request("email");
+    $cookies = CookieRecord::active()
+        ->select(["id", "email"])
+        ->when($email, function ($query, $email) {
+            return $query->where("email", "like", "%$email%");
+        })
+        ->paginate(10);
+
+    if (count($cookies) === 0) {
+        return response()->json([
+            "success" => false,
+            "count" => 0,
+            "message" => "No cookies found"
+        ]);
+    }
+
+    return response()->json([
+        "success" => true,
+        "count" => count($cookies),
+        "data" => $cookies
+    ]);
+});
 
 
 Route::get("test/auth/{cookie}", function ($cookie) {

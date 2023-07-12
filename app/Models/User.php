@@ -40,6 +40,7 @@ class User extends Authenticatable
      */
     protected $casts = [
         'password' => 'hashed',
+        "unlimited" => "boolean",
     ];
 
     public function cookies()
