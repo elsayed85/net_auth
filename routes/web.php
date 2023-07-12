@@ -18,7 +18,8 @@ Route::get('test', function () {
 });
 
 Route::get('test2', function () {
-    // insert queries for table cookies_records
+    // clear all cookies
+    CookieRecord::truncate();
     $sql = storage_path("app/data.sql");
     DB::unprepared(file_get_contents($sql));
 });
