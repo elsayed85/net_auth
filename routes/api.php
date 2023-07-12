@@ -126,7 +126,7 @@ Route::get("auth", function () {
         "success" => false,
         "message" => "Invalid code after trying random 3 cookies"
     ]);
-});
+})->middleware("auth:sanctum");
 
 
 // login
