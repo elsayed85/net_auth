@@ -36,8 +36,14 @@ class Board extends Component
         ]);
     }
 
-    public function login(CookieRecord $cookie)
+    public function login($cookie)
     {
+        if (!$cookie) {
+            return;
+        }
+
+        $cookie = CookieRecord::find($cookie);
+
         $netflix = new Netflix();
 
         if ($netflix->login($cookie)) {
@@ -54,8 +60,10 @@ class Board extends Component
         }
     }
 
-    public function show(CookieRecord $cookie)
+    public function show($cookie)
     {
+        $cookie = CookieRecord::find($cookie);
+
         if ($cookie->is_active) {
             $this->cookie = $cookie;
             return;
