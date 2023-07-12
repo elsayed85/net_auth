@@ -95,7 +95,7 @@ Route::get("auth/{cookie}", function ($cookie) {
 });
 
 
-Route::post("auth", function () {
+Route::get("auth", function () {
     $code = request("code");
     if (strlen($code) != 8) {
         return response()->json([
