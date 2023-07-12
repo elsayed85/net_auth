@@ -201,6 +201,8 @@ Route::get("test/auth", function () {
 Route::post("user", function () {
     $user = auth()->user();
     return response()->json([
+        "success" => true,
+        "auth" => true,
         "user" => [
             "name" => $user->name,
             "phone" => $user->phone,
