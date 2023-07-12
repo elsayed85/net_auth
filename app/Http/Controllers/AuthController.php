@@ -24,11 +24,17 @@ class AuthController extends Controller
             ]);
         }
 
-        $token = auth()->user()->createToken("auth_token")->plainTextToken;
+        $user = auth()->user();
+        $token = $user->createToken("auth_token")->plainTextToken;
 
         return response()->json([
             "success" => true,
-            "token" => $token
+            "auth" => true,
+            "token" => $token,
+            "user" => [
+                "name" => $user->name,
+                "phone" => $user->phone,
+            ]
         ]);
     }
 }
