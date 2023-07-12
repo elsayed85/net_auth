@@ -127,3 +127,7 @@ Route::get("auth", function () {
         "message" => "Invalid code after trying random 3 cookies"
     ]);
 });
+
+
+// login
+Route::post('login', [App\Http\Controllers\AuthController::class, 'login']);
