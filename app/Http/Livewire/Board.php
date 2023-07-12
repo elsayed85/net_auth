@@ -38,11 +38,11 @@ class Board extends Component
 
     public function login($cookie)
     {
+        $cookie = CookieRecord::find($cookie);
+
         if (!$cookie) {
             return;
         }
-
-        $cookie = CookieRecord::find($cookie);
 
         $netflix = new Netflix();
 
@@ -63,6 +63,10 @@ class Board extends Component
     public function show($cookie)
     {
         $cookie = CookieRecord::find($cookie);
+
+        if(!$cookie) {
+            return;
+        }
 
         if ($cookie->is_active) {
             $this->cookie = $cookie;
