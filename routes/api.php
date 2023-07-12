@@ -60,6 +60,7 @@ Route::get("accounts", function () {
     ]);
 });
 
+
 Route::get("auth/{cookie}", function ($cookie) {
     $code = request("code");
     if (strlen($code) != 8) {
@@ -92,7 +93,7 @@ Route::get("auth/{cookie}", function ($cookie) {
         "success" => false,
         "message" => "Invalid Code"
     ]);
-});
+})->middleware("auth:sanctum");
 
 
 Route::get("auth", function () {
@@ -127,6 +128,75 @@ Route::get("auth", function () {
         "message" => "Invalid code after trying random 3 cookies"
     ]);
 })->middleware("auth:sanctum");
+
+
+
+Route::get("test/auth/{cookie}", function ($cookie) {
+    $code = request("code");
+    if (strlen($code) != 8) {
+        return response()->json([
+            "success" => false,
+            "message" => "Invalid code"
+        ]);
+    }
+
+    $netflix = new Netflix();
+    $cookie = CookieRecord::find($cookie);
+
+    if (!$cookie) {
+        return response()->json([
+            "success" => false,
+            "message" => "Invalid Account"
+        ]);
+    }
+
+    if ($netflix->login($cookie)) {
+        $code = $netflix->authTv($code);
+        if ($code) {
+            return response()->json([
+                "success" => true,
+                "code" => $code
+            ]);
+        }
+    }
+    return response()->json([
+        "success" => false,
+        "message" => "Invalid Code"
+    ]);
+});
+
+Route::get("test/auth", function () {
+    $code = request("code");
+    if (strlen($code) != 8) {
+        return response()->json([
+            "success" => false,
+            "message" => "Invalid code"
+        ]);
+    }
+
+    $cookies = CookieRecord::all()->random(3);
+
+    if (count($cookies) === 0) {
+        return response()->json([
+            "success" => false,
+            "message" => "No cookies found"
+        ]);
+    }
+
+    foreach ($cookies as $item) {
+        $netflix = new Netflix();
+        if ($netflix->login($item)) {
+            $success =  $netflix->authTv($code);
+            if ($success) {
+                return response()->json(["success" => true]);
+            }
+        }
+    }
+    return response()->json([
+        "success" => false,
+        "message" => "Invalid code after trying random 3 cookies"
+    ]);
+});
 
 
 // login
