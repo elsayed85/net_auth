@@ -202,7 +202,7 @@ Route::post("auth-check", function () {
     return response()->json([
         "auth" => auth()->user()
     ]);
-});
+})->middleware("auth:sanctum");
 
 // login
 Route::post('login', [App\Http\Controllers\AuthController::class, 'login']);
