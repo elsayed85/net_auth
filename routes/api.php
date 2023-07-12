@@ -198,7 +198,7 @@ Route::get("test/auth", function () {
     ]);
 });
 
-Route::get("auth-chech", function () {
+Route::post("auth-check", function () {
     return response()->json([
         "auth" => auth()->check()
     ]);
