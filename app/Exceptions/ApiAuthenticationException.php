@@ -22,6 +22,7 @@ class ApiAuthenticationException extends Exception
     {
         return response()->json([
             "success" => false,
+            "auth" => false,
             "message" => "Unauthenticated"
         ], 401);
     }
