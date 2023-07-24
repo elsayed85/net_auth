@@ -3,6 +3,7 @@
 use App\Models\CookieRecord;
 use App\Services\Loader;
 use App\Services\Netflix;
+use App\Services\Shahid;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
@@ -13,8 +14,12 @@ Route::get('/', function () {
 });
 
 Route::get('test', function () {
-    $loader = new Loader();
-    $loader->load();
+    $username = "ahq.1419@hotmail.com";
+    $password = "asoom.123";
+    $shahid = new Shahid($username, $password);
+    $user = $shahid->login();
+    dd($user);
+    $tv = $shahid->userService(123456789);
 });
 
 Route::get('test2', function () {
