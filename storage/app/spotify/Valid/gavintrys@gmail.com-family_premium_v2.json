@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "gavintrys@gmail.com",
+        "gender": "MALE",
+        "birthdate": "2003-06-15",
+        "country": "US",
+        "third_party_email": false,
+        "username": "31zi7yoopqlhrftwllqb3qajji3q"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": 9,
+        "accountAgeDays": 225,
+        "isSubAccount": false
+    }
+}

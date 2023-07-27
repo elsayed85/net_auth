@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "tourncristian@hotmail.com",
+        "gender": "MALE",
+        "birthdate": "1992-09-16",
+        "country": "AR",
+        "third_party_email": false,
+        "username": "31dbr6ckqibucojqgcwlhr6qp6ky"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": 30,
+        "accountAgeDays": 987,
+        "isSubAccount": false
+    }
+}

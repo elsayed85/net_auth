@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "renebittner278@gmail.com",
+        "gender": "MALE",
+        "birthdate": "1997-04-04",
+        "country": "DE",
+        "third_party_email": false,
+        "username": "renebittner278"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": 1,
+        "accountAgeDays": 2318,
+        "isSubAccount": false
+    }
+}

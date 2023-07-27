@@ -1,0 +1,17 @@
+accounts.spotify.com	FALSE	/	FALSE	1716501388	__Host-device_id	AQDbH95Dg0LnowjZfA7wSwwCMCA9CXzZm0sxPhkJBttvEP2UiSmkJLOwI6Y1upZS9gkPCdX2nkic8xXaPIxO6403LwhgnRu16hM
+.spotify.com	TRUE	/	TRUE	1689717385	_gcl_au	1.1.199324433.1681948586
+.spotify.com	TRUE	/	TRUE	1716128084	_scid	ef867dce-8c34-4b0c-99be-d689b9559d32
+.spotify.com	TRUE	/	TRUE	1713477424	OptanonAlertBoxClosed	2023-04-19T23:57:04.284Z
+.spotify.com	FALSE	/	FALSE	1713477409	sp_dc	AQAruhqlssHdIbzmwbYJBYRzc03RoYMx8An2Cx3eZcZtHKQVQsAgDVNxJUEvSu7ipP3NsMBYGpkF1dQbY4UuIqmUDdjTNBVXaTUmSYxUU7NG6GRimG4LzFBp01hApYt-k3MPqk3ebka0X36zQXZtCBVKryhhAjvQ
+.spotify.com	TRUE	/	FALSE	1713477409	sp_key	d4ee5c4e-b135-444d-b591-c5b6b46fd617
+.spotify.com	TRUE	/	TRUE	1713485539	OptanonConsent	isIABGlobal=false&datestamp=Wed+Apr+19+2023+22%3A12%3A19+GMT-0400+(hora+de+Bolivia)&version=6.26.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1&AwaitingReconsent=false&geolocation=BO%3BS
+.spotify.com	TRUE	/	TRUE	1689725541	_fbp	fb.1.1681948586361.556498833
+.spotify.com	TRUE	/	TRUE	1716136238	_scid_r	ef867dce-8c34-4b0c-99be-d689b9559d32
+.spotify.com	TRUE	/	FALSE	1713485540	sp_adid	11a9a654-d45a-48e1-97ad-8381154fe894
+.spotify.com	TRUE	/	TRUE	1716510086	_ga_ZWG1NSHWD8	GS1.1.1681956721.2.1.1681957286.0.0.0
+.spotify.com	FALSE	/	FALSE	1682679181	sp_landing	https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D58a530641dad91d32c462e9bc17e734c%26device%3Ddesktop
+.spotify.com	TRUE	/	TRUE	1682593050	_gat	1
+.spotify.com	TRUE	/	FALSE	1714128970	sp_t	58a530641dad91d32c462e9bc17e734c
+accounts.spotify.com	FALSE	/	FALSE	1682596620	__Host-sp_csrf_sid	3eb20502b8221deaf3cedaf689f3cb511a7272721c6199a8981a0189d86dca62
+.spotify.com	TRUE	/	TRUE	1717153020	_ga	GA1.2.864704482.1681948586
+.spotify.com	TRUE	/	TRUE	1682679420	_gid	GA1.2.1208459554.1682600191

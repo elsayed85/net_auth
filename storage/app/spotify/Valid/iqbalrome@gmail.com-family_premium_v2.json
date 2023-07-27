@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "iqbalrome@gmail.com",
+        "gender": "MALE",
+        "birthdate": "1997-02-04",
+        "country": "MY",
+        "third_party_email": false,
+        "username": "55t5c83v4fvnofxa0fpxwh4ou"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": null,
+        "accountAgeDays": 2178,
+        "isSubAccount": true
+    }
+}

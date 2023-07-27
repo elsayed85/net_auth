@@ -1,0 +1,15 @@
+accounts.spotify.com	FALSE	/	FALSE	3804496214	__Host-device_id	AQCFmF-nGCm2g2e2cB9bfuOdHskFLlTG4NZqZH4jt23DuqGDGJ28KtnbZkjuJWy2eKM25qA-pT6pjYF2Hd-IAGGafkwyJ2Fwz8E
+.spotify.com	TRUE	/	FALSE	1688548630	sp_dc	AQDIxQkQfDrRkY_2Ys0KXb-nby3-YGVEsaqh2xitq1DvtSR-kQ5uquHPP-nGqfLL7AWLwMgnSMSOszvzP43rozpSkOe5JFIdhrBBxDLrm0b5pSAE3yA2ZR3zmjc4id6nUXafDggkduIiKWkaF2zqhA01JBQsBNI
+.spotify.com	TRUE	/	FALSE	1688548630	sp_key	bfe52ba9-a497-478c-8fbe-ce0aa67e81dd
+.spotify.com	TRUE	/	FALSE	1700771316	sp_m	nz
+www.spotify.com	FALSE	/	FALSE	17195836462032338	spsess	0hHW-teAYdlvXOrfEQdWANCM5f-SeEihZ0-RryrkzV7N%2CzzX
+.accounts.spotify.com	TRUE	/	FALSE	17195836464712606	csrf_token	AQCyQAw5RSuYnIvTQckCkd4ZneB978mFtwpVnWQGsM0McTlsOONIssq8rF3DQOVrxhbNziFMCyYA5U8_
+.accounts.spotify.com	TRUE	/	FALSE	17195836464712606	sp_tr	false
+.spotify.com	TRUE	/	FALSE	1718023377	OptanonConsent	isIABGlobal=false&datestamp=Mon+Jun+12+2023+00%3A42%3A57+GMT%2B1200+(New+Zealand+Standard+Time)&version=6.26.0&hosts=&landingPath=https%3A%2F%2Fopen.spotify.com%2Falbum%2F0id4ig4GkwJQm2N0Lqamid&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1
+.spotify.com	TRUE	/	FALSE	1721047382	_ga	GA1.2.29868935.1686487378
+.spotify.com	TRUE	/	FALSE	1721047396	_ga_ZWG1NSHWD8	GS1.1.1686487378.1.0.1686487396.0.0.0
+.spotify.com	TRUE	/	FALSE	1694263377	_gcl_au	1.1.1397437591.1686487378
+.spotify.com	TRUE	/	FALSE	1718023378	sp_adid	51ac0555-d33d-4ad9-ac3f-b536462f8140
+open.spotify.com	FALSE	/album	FALSE	17195836467112159	sss	1
+.spotify.com	TRUE	/	FALSE	1687933368	sp_landing	https%3A%2F%2Fopen.spotify.com%2Fembed%3Fsp_cid%3Dfac50543-0b6a-4510-b24d-f1cea419431c%26device%3Ddesktop
+.spotify.com	TRUE	/	FALSE	1719382968	sp_t	fac50543-0b6a-4510-b24d-f1cea419431c

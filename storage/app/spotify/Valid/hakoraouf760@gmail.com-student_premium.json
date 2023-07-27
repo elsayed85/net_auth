@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "hakoraouf760@gmail.com",
+        "gender": "MALE",
+        "birthdate": "1998-10-10",
+        "country": "PE",
+        "third_party_email": true,
+        "username": "31hvd3bdf6mvmzcziy7bxfuu5roy"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "student_premium",
+        "isRecurring": true,
+        "daysLeft": null,
+        "accountAgeDays": 576,
+        "isSubAccount": false
+    }
+}

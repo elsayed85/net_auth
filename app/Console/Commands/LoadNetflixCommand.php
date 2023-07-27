@@ -29,7 +29,7 @@ class LoadNetflixCommand extends Command
     {
         $validAccountsCount = 0;
         $invalidAccountsCount = 0;
-        $cookies = CookieRecord::NotActive()->get();
+        $cookies = CookieRecord::all();
 
         // use progress bar and chunk results
         $bar = $this->output->createProgressBar(count($cookies));

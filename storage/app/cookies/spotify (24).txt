@@ -1,0 +1,14 @@
+.spotify.com	TRUE	/	FALSE	1687368099	sp_last_utm	%7B%22utm_campaign%22%3A%22alwayson_latam_pe_premiumbusiness_core_brand%2Bcontextual-desktop%2Btext%2Bexact%2Bpe-es%2Bgoogle%22%2C%22utm_medium%22%3A%22paidsearch%22%2C%22utm_source%22%3A%22pe-es_brand_contextual-desktop_text%22%7D
+.spotify.com	TRUE	/	FALSE	1716744099	sp_m	pe
+accounts.spotify.com	FALSE	/	FALSE	1716744172	__Host-device_id	AQDyjF0MnKyF6GlFKHNRPNbmrEayLQ3OWgqem6ExjAYy6-u-ArR9rnxI6MoBr48H9hgOSpGos222SonFR6o5fkbQIYq_BRX_7ek
+.spotify.com	TRUE	/	FALSE	1689960168	_gcl_au	1.1.409177615.1682184169
+.spotify.com	TRUE	/	FALSE	1716370867	_scid	4a54db40-53de-4e03-beb5-1c7342271c11
+.spotify.com	TRUE	/	FALSE	1713720184	sp_dc	AQBzKkz1ZkteHDahMd1n4bdooOFsgkM2gOPbDNDc21Buq2GcUl6s2KwvyUqMz76khw5pBQltczH74N98-iQe3cAJ_jSlezqwwI36FtHVd8psulpX0qlMtBdSyffKq_gFSlIzJjcegJmr1IcL5TlnTTz5tBZGCbvq1ZAIFreGJJ-Y4FWI3rczExjDtadJ14ROHz1Ked5HUO1bAHwiEqIi3ydzvGRw
+.spotify.com	TRUE	/	FALSE	1713720184	sp_key	2e131a6c-2fe8-4018-b071-2381d0f58911
+.spotify.com	TRUE	/	FALSE	1714316164	sp_adid	be293b74-b797-407e-95e8-bcd09d7a4f96
+.spotify.com	TRUE	/	FALSE	1714316165	OptanonConsent	isIABGlobal=false&datestamp=Sat+Apr+29+2023+09%3A56%3A05+GMT-0500+(hora+est%C3%A1ndar+de+Per%C3%BA)&version=6.26.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1&AwaitingReconsent=false
+.spotify.com	TRUE	/	FALSE	1690556166	_fbp	fb.1.1682184169863.1002794570
+.spotify.com	TRUE	/	FALSE	1716966862	_scid_r	4a54db40-53de-4e03-beb5-1c7342271c11
+.spotify.com	TRUE	/	FALSE	1717346413	_ga	GA1.2.2098507946.1682184169
+.spotify.com	TRUE	/	FALSE	1714323388	sp_t	b87d1b16e5c4d8f7c5d6e11a644958bb
+.spotify.com	TRUE	/	FALSE	1717347565	_ga_ZWG1NSHWD8	GS1.1.1682787565.10.0.1682787565.0.0.0

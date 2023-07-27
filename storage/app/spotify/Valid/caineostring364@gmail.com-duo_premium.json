@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "caineostring364@gmail.com",
+        "gender": "MALE",
+        "birthdate": "2000-10-18",
+        "country": "SE",
+        "third_party_email": false,
+        "username": "i9ohbkeabrgi7h7y4zhvor5a0"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "duo_premium",
+        "isRecurring": true,
+        "daysLeft": null,
+        "accountAgeDays": 764,
+        "isSubAccount": true
+    }
+}

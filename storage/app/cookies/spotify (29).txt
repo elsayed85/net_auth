@@ -1,0 +1,17 @@
+accounts.spotify.com	FALSE	/	FALSE	3788135135	__Host-device_id	AQAyHUb8aI11yY7lmVHWQaXIMgGGX4Z6B6r5cCJNm5CDP0saNVSToor_xJ6IgKyYwLor_lpXz4gJc84jAj2oq_G6mSHOnZoY2N8
+.spotify.com	TRUE	/	FALSE	1700310611	_cs_c	0
+.spotify.com	TRUE	/	FALSE	1699846039	_tt_enable_cookie	1
+.spotify.com	TRUE	/	FALSE	1699846039	_ttp	11bc2bd7-12a9-40c8-a8e8-04da2c92f8f3
+.spotify.com	TRUE	/	FALSE	1708876303	_ga_ZWG1NSHWD8	GS1.1.1674314961.1.1.1674316303.0.0.0
+.spotify.com	TRUE	/	FALSE	1700310611	_cs_id	1dcd571d-ab7a-a0e2-ac6e-6ce82b74283f.1666146611.3.1680661705.1680660927.1.1700310611617
+.spotify.com	TRUE	/	FALSE	1715221707	_ga_S35RN5WNT2	GS1.1.1680660927.3.1.1680661707.0.0.0
+.spotify.com	TRUE	/	FALSE	1688437086	_gcl_aw	GCL.1680661086.Cj0KCQjwla-hBhD7ARIsAM9tQKsiz4WrRX29OgbnRK_qIAh25l3iG_raMO3_cmEUIgXmY4PLsOLhOm0aAsOGEALw_wcB
+.spotify.com	TRUE	/	FALSE	1688437086	_gcl_dc	GCL.1680661086.Cj0KCQjwla-hBhD7ARIsAM9tQKsiz4WrRX29OgbnRK_qIAh25l3iG_raMO3_cmEUIgXmY4PLsOLhOm0aAsOGEALw_wcB
+.spotify.com	TRUE	/	FALSE	1714357681	_uetvid	7c771590d35911ed80272bf9ae42dbfa
+www.spotify.com	FALSE	/	FALSE	1712197677	ravelinDeviceId	rjs-2667fbed-1d07-4557-8ffa-5db7ff92cbbd
+.spotify.com	TRUE	/	FALSE	1712197454	sp_dc	AQA9dOYu32DEdAeP913099ZFGCyxsA-j6tnL9Dh-k3wk2alo3vrif7bkIjZUuPZSO3_cTsChgtw9usjJkiFkaV6YxX-tkm2p1l8Jj3flQWOa8ixMOIFXF-ymKPszLatE93wBBQAs4oW3Wd-8vRtoHDJtG6peJ_mE
+.spotify.com	TRUE	/	FALSE	1712197454	sp_key	491ccb66-5587-4d58-9e07-7efba77ead98
+.spotify.com	TRUE	/	FALSE	1715036149	OptanonConsent	isIABGlobal=false&datestamp=Sun+May+07+2023+17%3A55%3A49+GMT-0500+(hora+est%C3%A1ndar+de+Per%C3%BA)&version=6.26.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1&AwaitingReconsent=false
+.spotify.com	TRUE	/	FALSE	1688683970	sp_last_utm	%7B%22utm_campaign%22%3A%22your_account%22%2C%22utm_medium%22%3A%22menu%22%2C%22utm_source%22%3A%22spotify%22%7D
+.spotify.com	TRUE	/	FALSE	1718060149	sp_m	pe
+.spotify.com	TRUE	/	FALSE	1718060149	spot	%7B%22t%22%3A1666146617%2C%22m%22%3A%22pe%22%2C%22p%22%3Anull%7D

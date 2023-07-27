@@ -1,0 +1,12 @@
+accounts.spotify.com	FALSE	/	FALSE	1719098631	__Host-device_id	AQCngAmKafN5dTOf398tUdLVTuxpdLJrmPGycAz9LKiMvlRst2fudFwlqMCjjsLkn5_irTATJjPM9-97WOljlvOQEFrbaQ_BemY
+.spotify.com	TRUE	/	FALSE	1716074660	sp_dc	AQAau5VNgB7GJXa1qDOx4fAf7idcQXPS7Es8OenJe7X4wa_wJ7gziVPteJUSOF848Url-Qer83LKB4Xe6oIj9x56VPE6cn_8k0JYJ7X12H9OiOjQjm-zm0HrWUHei6-r3_cRTlNuAStSqEH-sMUav0wZtItA7h_z
+.spotify.com	TRUE	/	FALSE	1716074660	sp_key	6cdfee7a-5a03-4d57-b9bb-6e3f07ba6ba2
+.spotify.com	TRUE	/	FALSE	1719860816	_scid	3dfe7a7c-d75d-4b68-939f-7b6d8044fddd
+.spotify.com	TRUE	/	FALSE	1717210149	OptanonConsent	isIABGlobal=false&datestamp=Thu+Jun+01+2023+23%3A49%3A09+GMT-0300+(hora+est%C3%A1ndar+de+Argentina)&version=6.26.0&hosts=&landingPath=https%3A%2F%2Fopen.spotify.com%2Fplaylist%2F37i9dQZF1DZ06evO1E2PZu&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1
+.spotify.com	TRUE	/	FALSE	1693450149	_fbp	fb.1.1685674119079.883844529
+.spotify.com	TRUE	/	FALSE	1720234149	_ga	GA1.1.22880766.1685674118
+.spotify.com	TRUE	/	FALSE	1720234150	_ga_ZWG1NSHWD8	GS1.1.1685674118.1.1.1685674150.0.0.0
+.spotify.com	TRUE	/	FALSE	1693450117	_gcl_au	1.1.1388050299.1685674117
+.spotify.com	TRUE	/	FALSE	1719860847	_scid_r	3dfe7a7c-d75d-4b68-939f-7b6d8044fddd
+.spotify.com	TRUE	/	FALSE	1717210149	sp_adid	ff3d173e-7ac7-40c1-a45e-8a10e40bef6e
+.spotify.com	TRUE	/	FALSE	1717210149	sp_t	a14d33c253321269186dae5751b0bd44

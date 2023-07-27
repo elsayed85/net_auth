@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "cihafiw334@zuile8.com",
+        "gender": "FEMALE",
+        "birthdate": "2005-05-12",
+        "country": "BO",
+        "third_party_email": true,
+        "username": "fi7j8u6eqpteu2m2l774cikq7"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": 15,
+        "accountAgeDays": 948,
+        "isSubAccount": false
+    }
+}

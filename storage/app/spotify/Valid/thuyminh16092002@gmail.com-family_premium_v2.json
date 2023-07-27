@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "thuyminh16092002@gmail.com",
+        "gender": "MALE",
+        "birthdate": "1999-10-19",
+        "country": "PE",
+        "third_party_email": true,
+        "username": "31yoq2othjw3tzcjxo3ro7jsxsgm"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": 2,
+        "accountAgeDays": 470,
+        "isSubAccount": false
+    }
+}

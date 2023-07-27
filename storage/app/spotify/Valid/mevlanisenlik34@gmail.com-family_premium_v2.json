@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "mevlanisenlik34@gmail.com",
+        "gender": "MALE",
+        "birthdate": "2005-03-19",
+        "country": "TR",
+        "third_party_email": false,
+        "username": "31i7dsahuaper5a64jss6lz4rqs4"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": null,
+        "accountAgeDays": 336,
+        "isSubAccount": true
+    }
+}

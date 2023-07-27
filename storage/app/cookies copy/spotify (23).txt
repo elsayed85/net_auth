@@ -1,0 +1,12 @@
+.spotify.com	TRUE	/	FALSE	1698326366	sp_m	tr-tr
+accounts.spotify.com	FALSE	/	FALSE	1698326402	__Host-device_id	AQCzk9AqCsVyJ7Dxu7nf8S812_y3DKP9BklsxNns0P2ZmEZBYpp7bR5I6GmBInNHfIpr-xAZukK6rX5SMyxLgX8QcMbFjDyHCmw
+.spotify.com	TRUE	/	FALSE	1698326418	sp_dc	AQCoDpI_GwTDWP2W5ABPoorBuXXKnSq8xCJje2SHCackFu9_dN_Wbp_KXvQpLzSfeW6Y-Os96nYlTsdzBMASmUd12sCtJ-pyJgarhsaZIRJAAgXjWWv2gkIUyGIiKqet3GiEpuscOMCeS1xppWSFkcWeVp2TW7ya
+.spotify.com	TRUE	/	FALSE	1687958418	sp_gaid	0088fc6c9f2032f23b673cb8a68ff07627e677e8ff998cf3ccd669
+.spotify.com	TRUE	/	FALSE	1698326418	sp_key	7cb193fb-b836-4104-876e-e35e724c340e
+open.spotify.com	FALSE	/	FALSE	1683379987	sp_pfhp	2c2ccb58-8a92-4713-a1c0-8b43b3090b49
+www.spotify.com	FALSE	/	FALSE	1683380029	ravelinDeviceId	rjs-0f1f4f36-f3e4-4f91-b47b-99bfdfcc8010
+www.spotify.com	FALSE	/	FALSE	1683380071	lightstep_guid%2Fwww-marketing	15be622108d6f982
+www.spotify.com	FALSE	/	FALSE	1683380071	lightstep_session_id	2bf13c6d7521e553
+.spotify.com	TRUE	/	FALSE	1687959270	sp_last_utm	%7B%22utm_campaign%22%3A%22upgrade%22%2C%22utm_medium%22%3A%22desktop%22%2C%22utm_source%22%3A%22app%22%7D
+.spotify.com	TRUE	/	FALSE	1683379930	sp_landing	https%3A%2F%2Fopen.spotify.com%2Fartist%2F12BrYQYprJ6GNAA4vgMsET%3Fsp_cid%3Db39fec35-aa9c-4317-a4c5-a22755f247ec%26device%3Ddesktop
+.spotify.com	TRUE	/	FALSE	1698845531	sp_t	b39fec35-aa9c-4317-a4c5-a22755f247ec

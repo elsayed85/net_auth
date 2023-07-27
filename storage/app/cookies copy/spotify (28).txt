@@ -1,0 +1,11 @@
+.spotify.com	TRUE	/	FALSE	1687373265	_gcl_au	1.1.1401149944.1679597265
+.spotify.com	TRUE	/	FALSE	1711808059	OptanonConsent	isIABGlobal=false&datestamp=Fri+Mar+31+2023+16%3A14%3A19+GMT%2B0200+(czas+%C5%9Brodkowoeuropejski+letni)&version=6.26.0&hosts=&consentId=5c5f4e78-970d-4a39-8463-8e1d3230a32d&interactionCount=1&landingPath=https%3A%2F%2Fopen.spotify.com%2Falbum%2F3MMbysI0Vul82WogwNogBa%3Futm_source%3Ddiscord%26utm_medium%3Ddesktop&groups=s00%3A1%2Cf00%3A0%2Cm00%3A0%2Ct00%3A0%2Cf11%3A0%2Ci00%3A0%2CSTACK3%3A0%2CSTACK11%3A0%2CSTACK20%3A0
+accounts.spotify.com	FALSE	/	FALSE	1714832047	__Host-device_id	AQCNCe8Jb5UCf8pPdCJpsWk7oA4LbS6QRvllyZuHxixWaW5ANc8z_VmGLqWxB0Fd-aJlHppLoVWQ-rVF3ZWuzafkANSWCc6L5bE
+.accounts.spotify.com	TRUE	/	FALSE	17159684120706521	__Secure-TPASESSION	AQAOcS3XQgiqOYfYOAk42k4OyTNiFsPvvPTEaK9uE2kuEovhB4KqezQbS6yqZpEwFsjt/gNf3LKadv653R9iJJEsMbkfiRsGTM8=
+.accounts.spotify.com	TRUE	/	FALSE	17159684120706521	sp_tr	false
+.accounts.spotify.com	TRUE	/	FALSE	17159684121019065	csrf_token	AQCxu5OY5us4Rj8POd6EvD9_5jdrA_yLbOO3KMtp2w9iUgwHsYO3_xzOcxOkom7mpRr0ybS07qFmLKhygw
+accounts.spotify.com	FALSE	/	FALSE	17159684121019065	remember	patka060300%40gmail.com
+.spotify.com	TRUE	/	FALSE	1715417385	sp_dc	AQC-wk12JshbK5O3RgWsK1qy5yYAkh0P0WZQt8zeNeG0eZdaS0HIpqdAEK55P1bsk1g3h8H7c8E_2LmAoIIijMf4xa8RIN5lfxRG_PNvUlXkn3JcyBr2QD60WKph0-xkOr3AZy0VXejgi-jPHsCT0vHVDwDvVu8
+.spotify.com	TRUE	/	FALSE	1715417385	sp_key	dfb4261d-09cf-4aca-af41-36655ab515e7
+.accounts.spotify.com	TRUE	/	FALSE	17159684121019065	sp_sso_csrf_token	013acda71964ba667a51af9f18037712411df60b8431363833383831333930393331
+.spotify.com	TRUE	/	FALSE	1715431512	sp_t	33d0a6f0d9f4f09604276a0b490d7a68

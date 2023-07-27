@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "enesabinizgtula@gmail.com",
+        "gender": "MALE",
+        "birthdate": "1998-11-02",
+        "country": "TR",
+        "third_party_email": false,
+        "username": "4jmue9qyaduwjre7rpjyy5ga7"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "family_premium_v2",
+        "isRecurring": true,
+        "daysLeft": null,
+        "accountAgeDays": 720,
+        "isSubAccount": true
+    }
+}

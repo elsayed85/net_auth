@@ -1,0 +1,6 @@
+accounts.spotify.com	FALSE	/	FALSE	1715347840	__Host-device_id	AQCRjGU9s_cVXJ6tLNVT-17MRge-mhCED2l45R-TL0eLdfBLm3MA7Z2EW3xxfQme1IfwT2_Wi9EPKFPUMGEwZ1JNHvAwdxBGcUc
+accounts.spotify.com	FALSE	/	FALSE	1680791441	__Host-sp_csrf_sid	088588bc78d3c96123d56a52ea26143941a75846a9274d13f82c9e87fa63510f
+.spotify.com	TRUE	/	FALSE	1712323841	sp_dc	AQD0bIpH6o-ADEo3VdmRVfE8sBLr7U3KAnp2dJ89XsGUue74aBVz0ckrwIJFfxIFCG8nN0hxkhaQ8mLpkhzJwEJLwGAwf7HmYgzKCY168bBgF1GC8MU50TpqCeILgAZiAb-cruqAw7z4cO20IONDtMBucKXOUvDvG8KNvvitCVcVmll-h9J7br5-CKMPesfgCTo43oonYmll5kJ10QlI07G6BMmR
+.spotify.com	TRUE	/	FALSE	1712323841	sp_key	ed4336f3-b6bf-4a12-99fc-b6692ada8450
+.spotify.com	TRUE	/	FALSE	1680874245	sp_landing	https%3A%2F%2Fopen.spotify.com%2Fdesktop%2Fauth%2Fsuccess%3Fsp_cid%3Dceb49723fabfe25ccc7f22a683ba1f10%26device%3Ddesktop
+.spotify.com	TRUE	/	FALSE	1712323846	sp_t	ceb49723fabfe25ccc7f22a683ba1f10

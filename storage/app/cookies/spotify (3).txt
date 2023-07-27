@@ -1,0 +1,21 @@
+accounts.spotify.com	FALSE	/	FALSE	3786154343	__Host-device_id	AQDdp6-y2rZ_ynCovPM_P6MFfCKANN403Hxjh96UQgApkbm88kntipUlI41zJ51-V5ssQCFYz977DpzEMUlBbp6CkiypJM8wS4k
+.spotify.com	TRUE	/	FALSE	1809023321	ki_t	1651256921291%3B1651256921291%3B1651256921291%3B1%3B1
+.spotify.com	TRUE	/	FALSE	1809023321	ki_r	
+.spotify.com	TRUE	/	FALSE	1766773742	sp_m	de
+.spotify.com	TRUE	/	FALSE	1766773744	spot	%7B%22t%22%3A1651256939%2C%22m%22%3A%22de%22%2C%22p%22%3Anull%7D
+.spotify.com	TRUE	/	FALSE	1685443642	_scid	b8230b1a-ac00-4457-82ad-1a48997e1a7b
+.spotify.com	TRUE	/	FALSE	1685420945	_cs_c	0
+www.spotify.com	FALSE	/	FALSE	1966617019	spAnalytics_id	eyJkZXZpY2VJZCI6ImE4YmVhNDY2NDhmM2Q2YzA5MTkxNjA1YmExNDc2ODMwIiwidXNlcklkIjpudWxsfQ==
+.spotify.com	TRUE	/	FALSE	1685420945	_cs_id	7040597d-a6f7-afd0-dd68-acafcad6f97a.1651256945.1.1651257033.1651256945.1.1685420945286
+.spotify.com	TRUE	/	FALSE	1714329034	_ga	GA1.2.293931127.1638670692
+.spotify.com	TRUE	/	FALSE	1714329040	_ga_ZWG1NSHWD8	GS1.1.1651256919.2.1.1651257040.0
+.spotify.com	TRUE	/	FALSE	1714329040	_ga_S35RN5WNT2	GS1.1.1651256944.1.1.1651257040.24
+.spotify.com	TRUE	/	FALSE	1715095785	sp_dc	AQAA1C_y5cUUC1JlXD5rgDp-qGMXb-T4Kiq1PcDM7TQfPEK5HjHfYNNGTIFlMOMjAmuEa4vr3pN_muqre3uQfFdZyX70IDfz6zFai6Ilqy_hbprIOM-RkpILC0NtarrNlphvzA6KTp9neuVR0wRzDr9T89KTuOya
+.spotify.com	TRUE	/	FALSE	1715095785	sp_key	c0025012-9799-474b-92b6-b28993394fe3
+.spotify.com	TRUE	/	FALSE	1715095787	sp_t	180fdb2fbc21f6e879e10cb0774fb46f
+.spotify.com	TRUE	/	FALSE	1715781774	sp_t	bacbe988dddcef831421d2d7d2555bc6
+.spotify.com	TRUE	/	FALSE	1684332174	sp_landing	https%3A%2F%2Fopen.spotify.com%2Fembed%2Ftrack%2F4N6mK2kckq4mVpoaurzfoD%3Fsp_cid%3Dbacbe988dddcef831421d2d7d2555bc6%26device%3Ddesktop%26utm_source%3Ddiscord%26utm_medium%3Ddesktop
+.spotify.com	TRUE	/	FALSE	1687283732	sp_usid	7f984f20-7ff3-4c23-8ad6-525202f4edbc
+.spotify.com	TRUE	/	FALSE	1718817932	sp_t	f2edddd3-41e2-49f2-a46a-594573c6d0c7
+.spotify.com	TRUE	/	FALSE	1687368332	sp_new	1
+.spotify.com	TRUE	/	FALSE	1687368332	sp_landing	https%3A%2F%2Fwww.spotify.com%2Fde%2Flogin%2F

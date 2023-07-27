@@ -1,0 +1,10 @@
+.spotify.com	TRUE	/	FALSE	1686589410	OptanonAlertBoxClosed	2023-06-05T17:03:30.813Z
+.spotify.com	TRUE	/	FALSE	1686071006	sp_landing	https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D09dcf3e282cc5dd18e176719f5a56740%26device%3Ddesktop
+.spotify.com	TRUE	/	FALSE	1686589435	OptanonConsent	isIABGlobal=false&datestamp=Mon+Jun+05+2023+14%3A03%3A55+GMT-0300+(hora+est%C3%A1ndar+de+Uruguay)&version=6.26.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1&geolocation=UY%3BMO&AwaitingReconsent=false
+accounts.spotify.com	FALSE	/	FALSE	1701536621	__Host-device_id	AQB7y81Mw2cxy8GeJubG_DThd1UZoNNh9ZMiplAQ4rGNbyl_1YJwUw-vrx16cM4w8NK0q74C4IlXeDAp4EeKZWegXFzPGVnwQPw
+.spotify.com	TRUE	/	FALSE	1701536624	sp_dc	AQCAXz7-h2-36YUnNkSz-fRZUjmQKR2tWJy6Fx9b0Mwk5nn-5C0iGEYP8f9C-BC0HjcrknQwnIwWIGqL30scHYkbhhzsvoMS3V46VUbF-p1Cuye3o7f6bbWL8eYWSr7F4kBBvwAhh16bl9fQ6gLMWan6qCz1B8ugK3yAXv7o88kBMg4vnZNRfp8_EwxyxnQ794NDYO054yOEQwxfJFPUJiLx4L4
+.spotify.com	TRUE	/	FALSE	1691168634	sp_gaid	0088fce49316d92002aad04674007a627d1d926fa303155d328d51
+.spotify.com	TRUE	/	FALSE	1701536624	sp_key	e608ed97-f322-4ddb-8f29-7235addc1f98
+.spotify.com	TRUE	/	FALSE	1701536633	sp_m	uy
+accounts.spotify.com	FALSE	/	FALSE	1685988275	__Host-sp_csrf_sid	60abbd424ce5ea735baa4272b0ee001f159bbaa81a213e3410d6a52af1c64dac
+.spotify.com	TRUE	/	FALSE	1701536681	sp_t	09dcf3e282cc5dd18e176719f5a56740

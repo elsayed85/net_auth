@@ -1,0 +1,15 @@
+accounts.spotify.com	FALSE	/	FALSE	1716906014	__Host-device_id	AQBjTAcV5mgTMpf94WGU8Q3Wv0xRJzUBL4YrhOWQC3la2b5FayMsdtzpZ5jASlKXAW9f7LX84VUzDPYCsp98FmaUtPA9n3NH1Y4
+.spotify.com	TRUE	/	FALSE	1713882051	sp_dc	AQD0gDi8AtLXXgWWzZinO_IYXlxxJsPsA_eMw_FIeUcBk2CzM7mfB6svvnXEQTfLA9_fZO7Ca07Wp0kXyhxjpOhvhjwBXS6hAe1eBy_cqVJo22A3uQhmIIf9eApF71hKtEhK0NXk5mh55Md1csygiJApm6aHIXbe
+.spotify.com	TRUE	/	FALSE	1713882051	sp_key	87caa806-8644-4b8f-8374-deb789ed15c6
+.spotify.com	TRUE	/	FALSE	1687530576	sp_gaid	0088fc770e6d503a49f05feff93bd6748b88b9b744dc8d6bf04db7
+.spotify.com	TRUE	/	FALSE	1716906577	sp_m	tr-tr
+www.spotify.com	FALSE	/	FALSE	1713882633	ravelinDeviceId	rjs-f9ecec70-3f64-4f0f-9506-5f09284726a1
+.spotify.com	TRUE	/	FALSE	1690122603	_gcl_au	1.1.1509347721.1682346603
+.spotify.com	TRUE	/	FALSE	1716140601	sp_t	f25349435d8947a077c435006b862cca
+.spotify.com	TRUE	/	FALSE	1716140746	OptanonConsent	isIABGlobal=false&datestamp=Sat+May+20+2023+20%3A45%3A46+GMT%2B0300+(GMT%2B03%3A00)&version=6.26.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1&AwaitingReconsent=false
+.spotify.com	TRUE	/	FALSE	1719164747	_ga	GA1.1.2092921516.1682346604
+.spotify.com	TRUE	/	FALSE	1716140747	sp_adid	cd86fce9-b778-4573-88cd-7e32458e0fab
+.spotify.com	TRUE	/	FALSE	1689788746	sp_last_utm	%7B%22utm_campaign%22%3A%22your_account%22%2C%22utm_medium%22%3A%22menu%22%2C%22utm_source%22%3A%22spotify%22%7D
+.spotify.com	TRUE	/	FALSE	1719164802	_ga_S35RN5WNT2	GS1.1.1684604747.2.0.1684604802.0.0.0
+.spotify.com	TRUE	/	FALSE	1719164802	_ga_ZWG1NSHWD8	GS1.1.1684604602.2.1.1684604802.0.0.0
+.accounts.spotify.com	TRUE	/	FALSE	17197105797885000	sp_tr	true

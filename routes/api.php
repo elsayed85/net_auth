@@ -248,3 +248,6 @@ Route::post("user", function () {
 
 // login
 Route::post('login', [App\Http\Controllers\AuthController::class, 'login']);
+
+// sporify auth tv
+Route::get('spotify/auth/tv', [App\Http\Controllers\SpotifyController::class, 'authTv']);

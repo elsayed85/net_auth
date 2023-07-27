@@ -1,0 +1,13 @@
+.spotify.com	TRUE	/	FALSE	1683033341	sp_t	0b14dcfd69b42f06b5f4f476b25a3c5b
+accounts.spotify.com	FALSE	/	FALSE	1683659546	__Host-device_id	AQDGfaClLAm35Ow3DTwVt-QfrTpbF4sjJbZw-usNqm9fz7Fc6-Vvd33iPkOgPOmcrInbEAuCEP6guf8P9GX9pU9CfIrSkWPriac
+.spotify.com	FALSE	/	FALSE	1683659570	sp_dc	AQB3yzyOek21gXcnNk8pCbyxB0zQppKPCZxH4_l_9IG1LQk9KBbdAhTDPFZWFK-Ta7bt2JfiMDgP_kKkVijqFSF6g80b8qdA27DuEownQWmo8Vxzijxt2DIRoBDGcnKiHAincxfEfcoxv9EPoSA1LhhHgPf3gSWu
+.spotify.com	TRUE	/	FALSE	1683659570	sp_key	68f18391-219e-4dda-91c9-1eddc56a1b45
+www.spotify.com	TRUE	/	TRUE	1674212613	lightstep_guid%2Fwww-marketing	28c13b5e6f8fcb72
+www.spotify.com	TRUE	/	TRUE	1674212613	lightstep_session_id	36a3351b2c0b5915
+.spotify.com	TRUE	/	FALSE	1678791813	sp_gaid	0088fccd23294455ffbb50709985b6b57e3931f56aacd7879f9c93
+.spotify.com	FALSE	/	FALSE	1673694213	sp_landing	https%3A%2F%2Fwww.spotify.com%2Frs-en%2Fpremium%2F
+.spotify.com	FALSE	/	FALSE	1673694213	sp_landingref	https%3A%2F%2Fwww.google.com%2F
+.spotify.com	FALSE	/	FALSE	1689159983	sp_m	rs-sr
+.spotify.com	TRUE	/	TRUE	1674212893	OptanonAlertBoxClosed	2023-01-13T13:08:13.259Z
+.spotify.com	TRUE	/	TRUE	1674213021	OptanonConsent	isIABGlobal=false&datestamp=Fri+Jan+13+2023+14%3A10%3A21+GMT%2B0100+(Central+European+Standard+Time)&version=6.26.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A0%2Cm00%3A0%2Ct00%3A0%2Ci00%3A0%2Cf11%3A0&AwaitingReconsent=false&geolocation=RS%3B00
+www.spotify.com	FALSE	/	FALSE	1673611821	__Host-sp_csrf_sid	8710416ea4ced795340f162a25d308576dc458e23ae4e476a9ad344c76ab0a1d

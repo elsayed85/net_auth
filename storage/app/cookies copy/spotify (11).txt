@@ -1,0 +1,9 @@
+accounts.spotify.com	FALSE	/	FALSE	1684018027	__Host-device_id	AQB4_U_xajpUa2Nnq76gWyn640pJa7rN_OG9pGcSHN2_-8YFfADjAfghm9LeVi1aUzivokap-jLJ3lLHy4dfUt2QNGiKEXsLQAQ
+.spotify.com	TRUE	/	FALSE	1684018281	sp_m	be-nl
+.spotify.com	TRUE	/	FALSE	1673650295	sp_gaid	0088fc23ac204ad150747c916c4d6cd8596cf1b98f0ffc8d652f3d
+.spotify.com	TRUE	/	FALSE	1673650295	sp_phash	2835a0026df09e3431d552b16817dcffe4857238
+.spotify.com	TRUE	/	FALSE	1684018295	spot	%7B%22t%22%3A1668466297%2C%22m%22%3A%22be-nl%22%2C%22p%22%3Anull%7D
+.spotify.com	TRUE	/	FALSE	1673722245	sp_last_utm	%7B%22utm_campaign%22%3A%22alwayson_europe_be_performancemarketing_coreplus_brand%2Bcontextual%2Btext%2Bbmm%2Bbe-fr%2Bgoogle%22%2C%22utm_medium%22%3A%22paidsearch%22%2C%22utm_source%22%3A%22be-fr_brand_contextual_text%22%7D
+.spotify.com	TRUE	/	FALSE	1684090281	sp_dc	AQByxSYO-3rTv2_kZg8ZKN3dHQt2DOkr86zBW_VJWvi-1yjkPQvmrtAb2VSjYCuZoRNDQsxFgS7f053QXDy7HYClRjnGBYk_-aoVnc6O4rRJbhx8Q_pLvIop1zmobZ96c85fabLQfOFceN8B-Rz2OdxxsHPN5AQL
+.spotify.com	TRUE	/	FALSE	1684090281	sp_key	0c6bf427-13aa-430a-a335-341b39353e88
+.spotify.com	TRUE	/	FALSE	1684094178	sp_t	5519e1e2-5f1f-47f2-9fd8-902225429e1b

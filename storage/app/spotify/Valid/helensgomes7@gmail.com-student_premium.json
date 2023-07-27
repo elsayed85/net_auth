@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "email": "helensgomes7@gmail.com",
+        "gender": "FEMALE",
+        "birthdate": "1994-06-07",
+        "country": "BR",
+        "third_party_email": false,
+        "username": "g108oxvpgqsnxrozpbarlc1n5"
+    },
+    "subscription": {
+        "isTrialUser": false,
+        "currentPlan": "student_premium",
+        "isRecurring": true,
+        "daysLeft": 5,
+        "accountAgeDays": 1856,
+        "isSubAccount": false
+    }
+}
