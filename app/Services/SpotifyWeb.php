@@ -50,75 +50,58 @@ class SpotifyWeb
         return true;
     }
 
-    // public function authTv($cookie, $code)
-    // {
-    //     if (!$cookie) {
-    //         return false;
-    //     }
+    public function authTv($cookie, $code)
+    {
+        if (!$cookie) {
+            return false;
+        }
 
-    //     $cookie =  $this->loadCookies($cookie);
+        $cookie = $this->loadCookies($cookie);
 
-    //     $headers = [
-    //         "Sec-Fetch-Dest" => "empty",
-    //         "Sec-Fetch-Mode" => "cors",
-    //         "Sec-Fetch-Site" => "same-origin",
-    //         "Sec-Ch-Ua-Mobile" => "?0",
-    //         "Referer" => "https://accounts.spotify.com/en/pair/v1",
-    //         "User-Agent" => "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
-    //     ];
+        $headers = [
+            "Sec-Fetch-Dest" => "empty",
+            "Sec-Fetch-Mode" => "cors",
+            "Sec-Fetch-Site" => "same-origin",
+            "Sec-Ch-Ua-Mobile" => "?0",
+            "Referer" => "https://accounts.spotify.com/en/pair/v1",
+            "User-Agent" => "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+            "cookie" => $cookie,
+        ];
 
-    //     $client = HttpClient::create([
-    //         'headers' => [
-    //             "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029. Safari/537.3",
-    //             "Accept-Language" => "en-US,en;q=0.5",
-    //             "Cookie" => $cookie,
-    //         ]
-    //         ]);
+        $client = HttpClient::create([
+            'headers' => [
+                "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029. Safari/537.3",
+                "Accept-Language" => "en-US,en;q=0.5",
+                "Cookie" => $cookie,
+            ]
+        ]);
 
-    //     $response = $client->request('GET', "https://accounts.spotify.com/en/pair/v1");
+        $browse = new HttpBrowser($client);
+        $request = $browse->request('GET', "https://accounts.spotify.com/en/pair/v1");
 
-    //     $cookies = $client->getCookieJar();
+        $settings = $request->filter("script#__NEXT_DATA__")->text();
+        $settings = json_decode($settings, true);
+        $token = $settings['props']['initialToken'];
+        $flowId = $settings['props']["pageProps"]['flowId'];
 
-    //     dd($cookies);
+        $headers['X-Csrf-Token'] = $token;
 
-    //     // $form = $browse->filter("form")->form();
+        $url = "https://accounts.spotify.com/pair/api/code?flow_id=" . $flowId . ":" . (time());
 
-    //     // $form->setValues([
-    //     //     "code" => $code,
-    //     // ]);
+        $pair = Http::withHeaders($headers)
+            ->asJson()
+            ->post($url, [
+                "code" => $code,
+            ]);
 
-    //     // $browse = $crawler->submit($form);
+        dd($pair->body(), $pair->status(), $headers);
 
-    //     // dd($browse->html());
+        if ($pair->status() !== 200) {
+            return false;
+        }
 
-
-
-    //     $settings = $browse->filter("script#__NEXT_DATA__")->text();
-    //     $settings = json_decode($settings, true);
-    //     $token = $settings['props']['initialToken'];
-    //     $flowId = $settings['props']["pageProps"]['flowId'];
-
-
-    //     $headers['X-Csrf-Token'] = $token;
-    //     $url = "https://accounts.spotify.com/pair/api/code?flow_id=" . $flowId . ":" . (time());
-
-
-    //     $pair = Http::withHeaders($headers)
-    //         ->asJson()
-    //         ->post($url, [
-    //             "code" => $code,
-    //         ]);
-
-    //     dd($pair->status() , $pair->body() , $url , $headers);
-
-    //     if ($pair->status() !== 200) {
-    //         return false;
-    //     }
-
-    //     $pair = $pair->json();
-
-    //     dd($pair);
-    // }
+        $pair = $pair->json();
+    }
 
     public function loadCookies($content, $asJson = false)
     {
@@ -126,9 +109,43 @@ class SpotifyWeb
 
         $jar = $this->convertCookieStrToJar($content);
         $cookies = $jar->all();
-        return  implode('; ', array_map(function (Cookie $cookie) {
-            return $cookie->getName() . '=' . $cookie->getValue();
+        return implode('; ', array_map(function (Cookie $cookie) {
+            $name = trim($cookie->getName());
+            $value = trim($cookie->getValue());
+            return $name . '=' . $value;
         }, $cookies));
+    }
+
+    public function compareTwoCookiesKeys($one, $two)
+    {
+
+        dd($one, $two);
+        $one = $this->revserOriginalCookieStr($one);
+        $two = $this->revserOriginalCookieStr($two);
+
+        $one = array_map(function ($cookie) {
+            return array_keys($cookie)[0];
+        }, $one);
+
+        $two = array_map(function ($cookie) {
+            return array_keys($cookie)[0];
+        }, $two);
+
+        dd($one, $two);
+
+        return array_values(array_diff($one, $two));
+    }
+
+    public function revserOriginalCookieStr($str)
+    {
+        $str = explode(";", $str);
+        // convert to key value
+        return array_map(function ($cookie) {
+            $cookie = explode("=", $cookie);
+            $name = trim($cookie[0]);
+            $value = trim($cookie[1]);
+            return [$name => $value];
+        }, $str);
     }
 
     public function convertCookieStrToJar($str)
