@@ -54,7 +54,7 @@ class Board extends Component
                 "is_active" => true,
             ]);
         } else {
-            $cookie->delete();
+            // $cookie->delete();
             $this->cookie = null;
             $this->code = "";
         }
